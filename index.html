@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sales Performance Analysis Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero reveal">
+      <nav class="topbar">
+        <span class="eyebrow">Project Showcase</span>
+        <div class="topbar-actions">
+          <span class="topbar-note">Sales Data Analysis</span>
+          <button class="theme-toggle" type="button" id="themeToggle" aria-label="Toggle analytics theme">
+            <span class="theme-toggle-label">Dark Analytics</span>
+          </button>
+        </div>
+      </nav>
+
+      <div class="hero-grid">
+        <section class="hero-copy">
+          <p class="section-tag">Retail Analytics Story</p>
+          <h1>Turning raw sales records into a dashboard that tells a business story.</h1>
+          <p class="hero-text">
+            This project explores the Superstore sales dataset using Python and Power BI to uncover patterns in revenue,
+            profit, regions, and customer behavior. The goal was to move from raw data to insights that are easy to act on.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#what-i-did" class="button button-primary">See What I Did</a>
+            <a href="#skills" class="button button-secondary">Skills I Learned</a>
+            <a href="#project-files" class="button button-secondary">Project Files</a>
+          </div>
+
+          <ul class="impact-points">
+            <li>Cleaned and explored business data with Python</li>
+            <li>Built visual analysis to detect sales and profit patterns</li>
+            <li>Created an interactive Power BI dashboard for decision-making</li>
+          </ul>
+        </section>
+
+        <aside class="hero-panel reveal">
+          <div class="metric-card">
+            <span class="metric-label">Focus</span>
+            <strong>Sales, Profit & Trends</strong>
+          </div>
+          <div class="metric-card">
+            <span class="metric-label">Dataset</span>
+            <strong>Superstore Sales</strong>
+          </div>
+          <div class="metric-card">
+            <span class="metric-label">Output</span>
+            <strong>Interactive BI Dashboard</strong>
+          </div>
+          <div class="metric-card accent">
+            <span class="metric-label">Main Tools</span>
+            <strong>Python, Pandas, Power BI</strong>
+          </div>
+        </aside>
+      </div>
+    </header>
+
+    <main>
+      <section class="stats-band reveal">
+        <article class="stat-box">
+          <span class="stat-number" data-count="5">0</span>
+          <span class="stat-caption">Business questions explored</span>
+        </article>
+        <article class="stat-box">
+          <span class="stat-number" data-count="6">0</span>
+          <span class="stat-caption">Core tools used in the workflow</span>
+        </article>
+        <article class="stat-box">
+          <span class="stat-number" data-count="3">0</span>
+          <span class="stat-caption">Major insights highlighted</span>
+        </article>
+      </section>
+
+      <section id="what-i-did" class="content-grid">
+        <article class="story-card reveal">
+          <p class="section-tag">What I Did</p>
+          <h2>From dataset to dashboard</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <span class="timeline-step">01</span>
+              <div>
+                <h3>Understood the business problem</h3>
+                <p>I framed the project around practical business questions like total sales, best-performing regions, top product categories, and changing sales trends over time.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-step">02</span>
+              <div>
+                <h3>Prepared and explored the data</h3>
+                <p>I used Python, Pandas, and NumPy to organize the dataset, handle data issues, and inspect the structure before deeper analysis.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-step">03</span>
+              <div>
+                <h3>Created visual analysis</h3>
+                <p>With Matplotlib and Seaborn, I studied relationships across categories, regions, products, discounts, and time to identify meaningful patterns.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-step">04</span>
+              <div>
+                <h3>Built the final Power BI dashboard</h3>
+                <p>I turned the findings into a clean dashboard so the most important metrics and trends could be understood quickly and clearly.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="story-card questions-card reveal">
+          <p class="section-tag">Business Questions</p>
+          <h2>What the project answers</h2>
+          <ul class="question-list">
+            <li>What are the overall total sales and total profit?</li>
+            <li>Which product categories contribute the most revenue?</li>
+            <li>Which regions perform best in sales?</li>
+            <li>How do sales trends change over time?</li>
+            <li>Which products are the strongest sellers?</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="insights-layout">
+        <article class="insights-card reveal">
+          <p class="section-tag">Key Insights</p>
+          <h2>What I discovered</h2>
+          <div class="insight-grid">
+            <div class="insight-tile">
+              <h3>Technology leads revenue</h3>
+              <p>The Technology category generated the strongest overall sales among product categories.</p>
+            </div>
+            <div class="insight-tile">
+              <h3>West region stands out</h3>
+              <p>Regional comparison showed the West delivering stronger sales performance than the others.</p>
+            </div>
+            <div class="insight-tile">
+              <h3>Discounts can hurt profit</h3>
+              <p>Higher discounts sometimes pushed sales up while reducing profit margins, which is important for pricing strategy.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="dashboard-card reveal">
+          <div class="dashboard-copy">
+            <p class="section-tag">Dashboard Preview</p>
+            <h2>Interactive result, not just analysis notes</h2>
+            <p>
+              The final dashboard combines KPIs, category comparisons, regional performance, monthly sales movement,
+              product contribution, and customer segment breakdowns into one view.
+            </p>
+          </div>
+          <div class="dashboard-frame">
+            <img src="assets/dashboard.png" alt="Sales performance dashboard preview">
+          </div>
+        </article>
+      </section>
+
+      <section id="project-files" class="content-grid">
+        <article class="story-card reveal">
+          <p class="section-tag">Project Build</p>
+          <h2>How the workflow moved forward</h2>
+          <div class="workflow-strip">
+            <div class="workflow-node">
+              <span>Raw Data</span>
+              <strong>CSV Source</strong>
+            </div>
+            <div class="workflow-arrow" aria-hidden="true">→</div>
+            <div class="workflow-node">
+              <span>Python Stage</span>
+              <strong>Cleaning + EDA</strong>
+            </div>
+            <div class="workflow-arrow" aria-hidden="true">→</div>
+            <div class="workflow-node">
+              <span>BI Stage</span>
+              <strong>Power BI Dashboard</strong>
+            </div>
+          </div>
+          <p class="supporting-text">
+            The page now reflects the actual shape of the project: source data, notebook analysis, cleaned output, and the
+            final dashboard file used to present the story visually.
+          </p>
+        </article>
+
+        <article class="story-card resources-card reveal">
+          <p class="section-tag">Project Files</p>
+          <h2>Open the actual work</h2>
+          <div class="resource-list">
+            <a class="resource-link" href="file:///C:/Users/Madhuneshwari/OneDrive/MY%20PROJECTS/Sales%20data%20analysis%20Project/dashboard/sales_dashboard.pbix">
+              <span class="resource-type">Dashboard File</span>
+              <strong>sales_dashboard.pbix</strong>
+            </a>
+            <a class="resource-link" href="file:///C:/Users/Madhuneshwari/OneDrive/MY%20PROJECTS/Sales%20data%20analysis%20Project/notebooks/sales_analysis.ipynb">
+              <span class="resource-type">Notebook</span>
+              <strong>sales_analysis.ipynb</strong>
+            </a>
+            <a class="resource-link" href="file:///C:/Users/Madhuneshwari/OneDrive/MY%20PROJECTS/Sales%20data%20analysis%20Project/data/superstore_cleaned.csv">
+              <span class="resource-type">Prepared Dataset</span>
+              <strong>superstore_cleaned.csv</strong>
+            </a>
+          </div>
+        </article>
+      </section>
+
+      <section id="skills" class="skills-section reveal">
+        <div class="section-heading">
+          <p class="section-tag">Skills I Learned</p>
+          <h2>What this project helped me practice</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>Data Cleaning</h3>
+            <p>Improved my ability to structure datasets, inspect values, and prepare data before analysis.</p>
+          </article>
+          <article class="skill-card">
+            <h3>Exploratory Analysis</h3>
+            <p>Learned how to move from questions to patterns by comparing categories, products, regions, and time.</p>
+          </article>
+          <article class="skill-card">
+            <h3>Data Visualization</h3>
+            <p>Practiced using charts to explain trends and relationships in a way that is easy to understand.</p>
+          </article>
+          <article class="skill-card">
+            <h3>Dashboard Design</h3>
+            <p>Built a BI dashboard that balances metrics, visuals, and clarity for business-focused storytelling.</p>
+          </article>
+          <article class="skill-card">
+            <h3>Business Thinking</h3>
+            <p>Got better at linking technical analysis with real business decisions like pricing and regional focus.</p>
+          </article>
+          <article class="skill-card">
+            <h3>Tool Confidence</h3>
+            <p>Strengthened my workflow across Python, Pandas, NumPy, visualization libraries, and Power BI.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="stack-section reveal">
+        <article class="stack-card">
+          <p class="section-tag">Tech Stack</p>
+          <h2>Tools used in the project</h2>
+          <div class="pill-row">
+            <span class="pill">Python</span>
+            <span class="pill">Pandas</span>
+            <span class="pill">NumPy</span>
+            <span class="pill">Matplotlib</span>
+            <span class="pill">Seaborn</span>
+            <span class="pill">Power BI</span>
+          </div>
+        </article>
+
+        <article class="summary-card">
+          <p class="section-tag">Project Summary</p>
+          <p>
+            This project shows my ability to take a real dataset, analyze it with code, find meaningful business insights,
+            and present the results in a polished dashboard format.
+          </p>
+          <p class="summary-quote">
+            I did not just visualize the data. I translated it into a business-facing narrative.
+          </p>
+          <div class="author-block">
+            <span>Created by</span>
+            <strong>Madhuneshwari Jinkala</strong>
+          </div>
+        </article>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
